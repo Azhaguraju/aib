@@ -1,6 +1,7 @@
 import { GET_COINS,GET_COINS_BY_ID, COINS_ERROR,GET_EMPTY_COINS_BY_ID} from "../action/types";
 import fetch from '../utils/leoFetch'
 import { config } from "../config/config";
+import message from '../../src/message/message.json'
 
   export const getCoinsList = () => (dispatch:any) => {      
     fetch(config.coinsListURL, {
@@ -18,7 +19,7 @@ import { config } from "../config/config";
       })
       .catch(err => {
         let data=[{
-          error:"Having issue with display the data"
+          error:message.coinsDisplayErrorMsg
         }]      
         dispatch({
           payload:data,
@@ -43,7 +44,7 @@ import { config } from "../config/config";
       })
       .catch(err => {
         let data=[{
-          error:"Having issue with display the data"
+          error:message.coinsDisplayErrorMsg
         }]        
         dispatch({
           payload:data,
