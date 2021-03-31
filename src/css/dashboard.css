@@ -1,0 +1,9 @@
+.page-header .MuiTableCell-head{
+    font-weight: 600;
+    font-size: 18px;
+    width:10%;
+}
+.detail-title{
+    margin: 1rem!important;
+    text-decoration: underline;
+}

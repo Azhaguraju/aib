@@ -1,0 +1,9 @@
+.navigation-link{
+    cursor: pointer;
+}
+.virual-coins-img{
+    width: 12%;
+}
+.home-table tr:hover{
+    background: #5133a7 !important;   
+}

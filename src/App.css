@@ -1,0 +1,13 @@
+
+.title{
+  border-bottom: 1px solid rgb(168, 159, 159);
+}
+.title-heading{
+  text-align: center;
+  background: #5133a7;
+  color: white;
+  padding: 0.9rem;  
+}
+.home-icon{
+  float: right;
+}
